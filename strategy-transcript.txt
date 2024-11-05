@@ -1,0 +1,18 @@
+Strategy Transcript for Reversi Game
+====================================
+
+Player: Black (Computer)
+Strategy: Simplest Strategy (e.g., CaptureMaxPiecesStrategy)
+
+Initial Board Configuration:
+- The board is set up with the initial pieces in the center.
+
+Chosen Move:
+- The simplest strategy evaluates the available moves for the Black player.
+- It selects the move that captures the maximum number of White pieces.
+- If there are multiple moves capturing the same number of pieces, it chooses the uppermost-leftmost move.
+- For the starting configuration, this might typically be a move adjacent to a White piece.
+
+Result:
+- The chosen move is executed, flipping the adjacent White pieces to Black.
+- The board is updated accordingly, and it's now White's turn.
